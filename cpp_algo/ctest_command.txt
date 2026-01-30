@@ -1,0 +1,7 @@
+ctest --output-on-failure  = поименная выдача тестов
+cmake ..   = компиляция
+cmake --build .  = билд
+ctest - общий запуск
+до этого сделать папочку build (mkdir) и запусать команды из нее.
+
+ctest -V --output-on-failure  - самая подробная информация
