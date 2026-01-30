@@ -1,5 +1,5 @@
 package main
-
+import "fmt"
 func m(x int, y int)int{if x>=y{return x}else{return y}}
 
 
@@ -18,5 +18,4 @@ func lengthOfLIS(nums []int) int {
 	}
 	for i:=0;i<len(nums);i++{fmt.Printf("%d ",dp[i])}
     if mx == -1000{return 1}else{return mx}
-	return mx
 }
