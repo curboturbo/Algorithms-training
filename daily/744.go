@@ -1,5 +1,5 @@
 package main
-
+//binary search bordering with right side
 func nextGreatestLetter(letters []byte, target byte) byte {
 	left:=0
 	right:=len(letters)-1

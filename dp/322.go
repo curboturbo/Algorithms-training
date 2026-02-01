@@ -27,7 +27,3 @@ func coinChange(coins []int, amount int) int {
 	if dp[amount] == math.MaxInt32{return -1}else{return dp[amount]}
 }
 
-func main(){
-	a:=[]int{1,2,5}
-	coinChange(a,11)
-}

@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func m(x int,y int) int{if x<=y{return x}else{return y}}
+//func m(x int,y int) int{if x<=y{return x}else{return y}}
 
 
 func minCostClimbingStairs(cost []int) int {
@@ -16,7 +16,4 @@ func minCostClimbingStairs(cost []int) int {
 		fmt.Printf("%d ", dp[i])
     }
 	return m(dp[n-1],dp[n-2])
-}
-func main(){
-	minCostClimbingStairs([]int{10,15,20})
 }
