@@ -3,7 +3,7 @@ package main
 func m(x int,y int)int{if x<=y{return x}else{return y}}
 
 
-func minimumCost(nums []int) int {
+func minimumCost1(nums []int) int {
 	if len(nums) == 3{return nums[0]+nums[1]+nums[2]}
 	sum:=nums[0]
 	min:=nums[1]
